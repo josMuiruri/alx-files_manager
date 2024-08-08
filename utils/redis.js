@@ -1,4 +1,3 @@
-import { resolve } from "path";
 import redis from "redis";
 
 class RedisClient {
@@ -52,5 +51,3 @@ class RedisClient {
 
 const redisClient = new RedisClient();
 export default redisClient;
-
-
